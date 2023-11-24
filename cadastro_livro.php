@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <span style='margin-left: 15px; color: white; font-weight: bold; float: left; font-size: 22px; line-height: 20px; cursor: pointer; transition: 0.3s;' onclick='this.parentElement.style.display='none';'>"  
         . $mensagem . 
         "</span>
-        <button><a href='cadastrarLivro.php'>Voltar ao Cadastro</a></button>
+        <button><a href='ListarLivro.php'>Voltar ao Cadastro</a></button>
         </div>";
 }
 $conn->close();

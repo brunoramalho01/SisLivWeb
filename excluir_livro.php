@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_POST['id'])) {
     $livro_id = $_POST['id'];
 
     // Redirecionar para a página de edição com o ID do livro escolhido
-    header("Location: editarLivro.php?id=$livro_id");
+    header("Location: excluirLivro.php?id=$livro_id");
     exit();
 }
 
@@ -23,7 +23,7 @@ $conn->close();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Selecionar Livro para Editar</title>
+    <title>Selecionar Livro para Excluir</title>
 </head>
 <body>
     <!-- Menu de Navegacao-->
@@ -38,8 +38,8 @@ $conn->close();
     </div>
 
     <div class="container">
-        <h1>Selecionar Livro para Editar</h1>
-        <form action="editarLivro.php" method="get">
+        <h1>Selecionar Livro para Excluir</h1>
+        <form action="excluirLivro.php" method="get">
             <label for="id">Escolha o Livro:</label>
             <select id="id" name="id" required>
                 <?php
@@ -49,7 +49,7 @@ $conn->close();
                 }
                 ?>
             </select>
-            <button type="submit">Editar Livro</button>
+            <button type="submit">Excluir Livro</button>
         </form>
     </div>
 </body>

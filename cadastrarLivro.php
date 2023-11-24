@@ -19,7 +19,7 @@ require_once ('conectDB.php');
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="cadastrarLivro.php">Cadastrar</a></li>
             <li><a href="editar_livro.php">Editar</a></li>
-            <li><a href="#">Excluir</a></li>
+            <li><a href="excluir_livro.php">Excluir</a></li>
             <li><a href="listarLivro.php">Listar</a></li>
         </ul>
     </div>
