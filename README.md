@@ -18,37 +18,7 @@ Entre em contato pelo e-mail <a href="mailto:brunoramalho01@gmail.com"><img src=
 
 ### Exemplo de Esturura de Arquivos :
 
-../'nome_minha_pasta'
-│
-├─── css
-│     │── card.css
-│     │── style.css
-│       
-├─── img
-│     │──  A_Danca_dos_Dragoes_-_As_Cronicas_de_Gelo_e_Fogo.jpg
-│     │──  A_Furia_dos_Reis_-_As_Cronicas_de_Gelo_e_Fogo.jpg
-│     │──  A_Guerra_dos_Tronos_-_As_Cronicas_de_Gelo_e_Fogo.jpg
-│     │──  ...
-│       
-├─── js
-│    │── script.js
-│       
-│─── sql
-│     │── banco_de_dados.sql
-│
-│   cadastrarLivro.php
-│   cadastro_editora.php
-│   cadastro_livro.php
-│   conectDB.php
-│   diretorios
-│   editarLivro.php
-│   editar_livro.php
-│   excluirLivro.php
-│   excluir_livro.php
-│   index.html
-│   listarLivro.php
-│   README.md
-│  
+<img src="https://user-images.githubusercontent.com/96745548/285496944-542344c0-0e92-49dd-9d42-4aa44e22b1f3.png"/>
 
 ### Se gostou e gostaria de retribuir, donativos logo abaixo:
 
